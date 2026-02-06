@@ -1,0 +1,21 @@
+Algoritmo "Condicional animhada"
+    Var dinheiro: inteiro
+
+Inicio
+    escreval("Tem quanto de money?")
+    leia(dinheiro)
+
+    se (dinheiro >= 10000) entao 
+       escreval("Eba partiu Disney")
+
+    senao 
+      se (dinheiro >= 5000) e (dinheiro < 10000) entao 
+         escreva("Vamos visitar a família então")
+
+    senao
+       escreval("Deixa pro ano que vem então")
+
+      FimSe 
+    FimSe 
+
+FimAlgoritmo
