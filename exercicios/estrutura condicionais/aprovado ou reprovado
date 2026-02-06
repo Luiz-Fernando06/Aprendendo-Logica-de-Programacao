@@ -1,0 +1,32 @@
+//Crie um programa que leia 2 notas e diga se o aluno foi reprovado ou aprovado, sabendo que a media da escola é 7 para aprovação
+
+Algoritmo "Notas"
+    var nota1, nota2, m: real
+
+Inicio
+    escreval("Digite a primeira nota: ")
+    leia(nota1)
+
+    escreval("Digite a segunda nota: ")
+    leia(nota2)
+
+    m <- (nota1 + nota2) / 2
+    escreval("Média: ", m)
+
+    se (m >= 7) entao 
+       escreval("APROVADO")
+
+       senao 
+         se (m >=5) e (m < 7) entao 
+            escreval("RECUPERAÇÃO")
+    
+       senao 
+          escreval("REPROVADO")
+
+      FIMSE
+
+    FIMSE
+
+
+FimAlgoritmo
+//Código realizado en 'Pseudocode' App for Android
